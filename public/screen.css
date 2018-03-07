@@ -6,14 +6,18 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  display: flex;
  
 }
 
 .header {
   background-color: #ccc;
-  border-color: orange;
-}
+ }
 
+ .leftheader{
+  justify-content: space-between
+  align-items: flex-start
+ }
 .bold {
   font-weight: bold;
 }
