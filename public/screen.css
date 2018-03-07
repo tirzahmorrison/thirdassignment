@@ -20,7 +20,6 @@ body {
   display: flex;
   flex-direction: row; 
   margin: auto;
-  width: 960px;
   justify-content: space-between;
   align-items: flex-end;
 
