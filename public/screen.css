@@ -13,6 +13,7 @@ body {
 
 .header {
   background-color: #ccc;
+  flex-direction: row;
  }
 
  .leftheader{
