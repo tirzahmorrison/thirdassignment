@@ -13,12 +13,12 @@ body {
 
 .header {
   background-color: #ccc;
-  flex-direction: row;
+  
  }
 
  .leftheader{
-  justify-content: space-between
-  align-items: flex-start
+  justify-content: space-between;
+  flex-direction: column;
  }
 .bold {
   font-weight: bold;
