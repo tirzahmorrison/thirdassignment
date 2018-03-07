@@ -16,10 +16,14 @@ body {
   
  }
 
- .leftheader{
-  justify-content: space-between;
-  flex-direction: column;
+ header section {
+  display: flex;
+  flex-direction: row; 
+  margin: auto;
+  width: 960px;
+
  }
+
 .bold {
   font-weight: bold;
 }
