@@ -46,6 +46,8 @@ header li a{
 .footer{
   border-bottom: 1px solid #caca;
   margin: 0 9px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -67,4 +69,7 @@ header ul{
   display: flex;
 }
 
+img.user{
+  display: inline;
+}
 
