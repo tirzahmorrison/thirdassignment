@@ -16,6 +16,7 @@ header {
   display: flex;
   background-color: #ccc;
   flex-direction: row; 
+  justify-content: space-between;
   
  }
 
@@ -27,12 +28,16 @@ header {
 
  header li{
    padding: 1em;
-  justify-items: flex-end;
+  
  }
  
+header li a{
 
+  color: black;
+}
  header li a:hover, li.active a {
   color: blue;
+
 }
 
 header ul{
