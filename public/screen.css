@@ -64,6 +64,10 @@ img.user{
 }
 
 @media screen and (min-width: 600px){
+
+  header li {
+    font-size: 1.25em;
+  }
   
 
 
