@@ -8,17 +8,37 @@ body {
   font: 16px / 1 sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
  
 }
 
-.header {
+header {
   background-color: #ccc;
   
+ }
+
+ header a{
+   text-decoration: none;
  }
 
  header section {
   display: flex;
   flex-direction: row; 
+
+ }
+
+ header li{
+   padding: 1em;
+ }
  
+
+ header li a:hover, li.active a {
+  color: blue;
+}
+
+header ul{
+  list-style: none;
+  display: flex;
+}
 
 
