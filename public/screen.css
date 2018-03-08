@@ -29,6 +29,11 @@ header .logo{
   height: 22px;
 }
 
+header ul{
+  list-style: none;
+  display: flex;
+}
+
  header li{
    padding: .5em;
   
@@ -67,10 +72,7 @@ header li a{
   flex-wrap: wrap;
 }
 
-header ul{
-  list-style: none;
-  display: flex;
-}
+
 
 img.user{
   display: inline-block;
