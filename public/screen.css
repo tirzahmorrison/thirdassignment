@@ -29,6 +29,7 @@ header {
 
  header li{
    padding: 1em;
+   align-items: flex-end;
  }
  
 
