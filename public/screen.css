@@ -43,6 +43,8 @@ header li a{
 
 }
 
+@media screen and (min-width: 600px){
+
 .footer{
   border-bottom: 1px solid #caca;
   margin: 0 9px 0;
@@ -64,6 +66,7 @@ header li a{
   display: flex;
   flex-wrap: wrap;
 }
+
 header ul{
   list-style: none;
   display: flex;
@@ -80,6 +83,13 @@ section.img{
 
   margin: 0 9px 0;
 }
+}
+
+
+
+
+
+
 
 
 
