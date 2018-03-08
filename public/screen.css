@@ -48,14 +48,22 @@ header li a{
 
 }
 
-@media screen and (min-width: 600px){
-
 .footer{
   border-bottom: 1px solid #caca;
   margin: 0 9px 0;
   display: flex;
   justify-content: space-between;
 }
+
+img.user{
+  display: inline-block;
+  height: 28px;
+  width: 28px;
+}
+
+@media screen and (min-width: 600px){
+
+
 
 
 .pagecontent img.main{
@@ -72,22 +80,19 @@ header li a{
   flex-wrap: wrap;
 }
 
-
-
-img.user{
-  display: inline-block;
-  height: 28px;
-  width: 28px;
-
-}
-
 section.img{
-
   margin: 0 9px 0;
 }
 }
 
+@media screen and (max-width: 599px){
+ 
+img.main{
+  width: 100%;
+  padding: 9px;
+}  
 
+}
 
 
 
