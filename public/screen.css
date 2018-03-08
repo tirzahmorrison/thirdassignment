@@ -13,7 +13,9 @@ body {
 }
 
 header {
+  display: flex;
   background-color: #ccc;
+  flex-direction: row; 
   
  }
 
@@ -21,11 +23,7 @@ header {
    text-decoration: none;
  }
 
- header section {
-  display: flex;
-  flex-direction: row; 
 
- }
 
  header li{
    padding: 1em;
