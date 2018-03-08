@@ -59,6 +59,8 @@ img.user{
   display: inline-block;
   height: 28px;
   width: 28px;
+  border-radius: 50%;
+  overflow:hidden;
 }
 
 @media screen and (min-width: 600px){
