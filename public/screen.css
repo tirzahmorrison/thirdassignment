@@ -64,7 +64,7 @@ img.user{
 }
 
 @media screen and (min-width: 600px){
-  font-size: 1.25em;
+  
 
 
 
@@ -89,9 +89,12 @@ section.img{
 }
 
 @media screen and (max-width: 599px){
-  font-size: 1.25em;
- 
-img.main{
+  
+header li {
+  font-size: 1.25em
+ } 
+
+  img.main{
   width: 100%;
   padding: 9px;
 
