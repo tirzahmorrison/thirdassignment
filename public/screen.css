@@ -30,7 +30,7 @@ header .logo{
 }
 
  header li{
-   padding: 1em;
+   padding: .5em;
   
  }
  
@@ -43,6 +43,25 @@ header li a{
 
 }
 
+.footer{
+  border-bottom: 1px solid #caca;
+  margin: 0 9px 0;
+}
+
+
+.pagecontent img.main{
+  height: 424px;
+  width: 424px;
+  border: 1px solid #caca;
+  
+}
+
+
+.pagecontent{
+
+  display: flex;
+  flex-wrap: wrap;
+}
 header ul{
   list-style: none;
   display: flex;
