@@ -90,7 +90,13 @@ section.img{
 img.main{
   width: 100%;
   padding: 9px;
+
 }  
+
+.mobile{
+
+  display: none;
+}
 
 }
 
